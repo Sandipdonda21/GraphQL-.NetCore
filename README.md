@@ -11,8 +11,8 @@ A comprehensive GraphQL API built with .NET Core, demonstrating best practices i
 
 - 📝 **Blog-like Functionality**
   - Users can create and manage posts
-  - Comment system
-  - Like/Unlike functionality
+  - Comment system(not implemented)
+  - Like/Unlike functionality(not implemented)
 
 - 🚀 **Performance Optimizations**
   - Response caching
@@ -27,50 +27,55 @@ A comprehensive GraphQL API built with .NET Core, demonstrating best practices i
 
 ## Documentation
 
-1. [Getting Started](Docs/1_GettingStarted.md)
-   - Project setup
-   - Environment configuration
-   - Running the application
+1. [Environment Setup](Docs/01-environment-setup.md)
+   - Development environment setup
+   - Required tools and packages
+   - Initial configuration
 
-2. [Authentication](Docs/2_Authentication.md)
+2. [Project Structure](Docs/02-project-structure.md)
+   - Solution organization
+   - Project layers
+   - Key components
+
+3. [Create Models and DbContext](Docs/03-create-models-and-dbcontext.md)
+   - Entity models
+   - Database context
+   - Entity relationships
+
+4. [Setup GraphQL Schema](Docs/04-setup-graphql-schema.md)
+   - Type definitions
+   - Schema configuration
+   - Type relationships
+
+5. [CRUD Mutation in GraphQL](Docs/05-crud-mutation-in-graphQL.md)
+   - Create operations
+   - Update operations
+   - Delete operations
+
+6. [Advanced Get Query Playground](Docs/06-advanced-get-query-playground.md)
+   - Query examples
+   - Filtering
+   - Sorting and pagination
+
+7. [Authentication & Authorization](Docs/07-authentication-authorization.md)
    - JWT implementation
    - User registration
    - Login process
 
-3. [GraphQL Schema](Docs/3_GraphQLSchema.md)
-   - Type definitions
-   - Queries
-   - Mutations
-
-4. [Data Access](Docs/4_DataAccess.md)
-   - Entity Framework setup
-   - Database context
-   - Migrations
-
-5. [Validation](Docs/5_Validation.md)
-   - Input validation
-   - Error handling
-   - Custom validators
-
-6. [Error Handling](Docs/6_ErrorHandling.md)
+8. [Error Handling Best Practices](Docs/08-ErrorHandling-BestPractices.md)
    - Global error handling
    - Custom error types
    - Error logging
 
-7. [Logging](Docs/7_Logging.md)
-   - Serilog configuration
-   - Request logging
-   - Error logging
-
-8. [Testing](Docs/8_Testing.md)
-   - Unit tests
-   - Integration tests
-   - Test data setup
-
-9. [Caching](Docs/9_Caching.md)
-   - Response caching
-   - Query caching
+9. [Caching Strategy](Docs/9_Caching.md)
+   - Memory cache implementation
    - Cache invalidation
+   - Best practices
+
+10. [Serilog Logging](Docs/10_Serilog_Logging.md)
+    - Logging configuration
+    - Request logging
+    - Error logging
 
 ## Getting Started
 
@@ -83,7 +88,7 @@ A comprehensive GraphQL API built with .NET Core, demonstrating best practices i
 
 ## Requirements
 
-- .NET 8.0 SDK
+- .NET 9.0 SDK
 - SQL Server
 - Visual Studio 2022 or VS Code
 
