@@ -67,7 +67,7 @@ A comprehensive GraphQL API built with .NET Core, demonstrating best practices i
    - Custom error types
    - Error logging
 
-9. [Caching Strategy](Docs/9_Caching.md)
+9. [Caching Strategy](Docs/09_Caching.md)
    - Memory cache implementation
    - Cache invalidation
    - Best practices
