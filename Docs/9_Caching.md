@@ -197,3 +197,7 @@ Use `SetSlidingExpiration` or `SetAbsoluteExpiration` wisely.
 Always invalidate the cache when writing data (create/update/delete).
 
 Consider using distributed caching (e.g., Redis) for scale.
+
+
+## Navigation
+- [Next: 10_Serilog_Logging →](10_Serilog_Logging.md)

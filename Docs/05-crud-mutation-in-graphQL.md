@@ -152,6 +152,8 @@ mutation {
 - Cache key format: `posts_user_{userId}`
 - Cache is cleared after successful post creation
 
+## Navigation
+- [Next: 06-advanced-get-query-playground →](06-advanced-get-query-playground.md)
 
 
 

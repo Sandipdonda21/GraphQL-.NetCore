@@ -105,3 +105,6 @@ Unit tests and integration tests go here.
 | Context | `AppDbContext.cs` |
 
 ---
+
+## Navigation
+- [Next: 03-create-models-and-dbcontext →](03-create-models-and-dbcontext.md)

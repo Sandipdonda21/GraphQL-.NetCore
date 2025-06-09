@@ -213,4 +213,5 @@ query {
 | Relations  | ✅ (include related entities like user)             |
 
 
-
+## Navigation
+- [Next: 07-authentication-authorization →](07-authentication-authorization.md)

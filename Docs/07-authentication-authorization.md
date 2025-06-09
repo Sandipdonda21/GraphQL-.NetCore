@@ -312,3 +312,6 @@ Remember to include the JWT token in the request headers:
 ```
 Authorization: Bearer YOUR_JWT_TOKEN
 ```
+
+## Navigation
+- [Next: 08-ErrorHandling-BestPractices →](08-ErrorHandling-BestPractices.md)

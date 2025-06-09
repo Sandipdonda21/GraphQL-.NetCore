@@ -263,6 +263,9 @@ query {
 }
 ```
 
+## Navigation
+- [Next: 05-crud-mutation-in-graphQL →](05-crud-mutation-in-graphQL.md)
+
 
 
 

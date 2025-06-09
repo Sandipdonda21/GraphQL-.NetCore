@@ -1,3 +1,5 @@
+[← Back to Main README](../README.md)
+
 # 01 - Environment Setup for GraphQL + .NET Core API
 
 This guide helps you set up the required tools, create the base folder structure, and install packages for building a GraphQL API using ASP.NET Core and Entity Framework.
@@ -114,3 +116,6 @@ GraphQLDemo/
 │
 └── GraphQLDemo.Tests/        → Unit & integration tests
 ```
+
+## Navigation
+- [Next: 02-project-structure →](02-project-structure.md)

@@ -195,5 +195,7 @@ dotnet ef database update --project ../GraphQLDemo.Infrastructure --startup-proj
 dotnet tool install --global dotnet-ef
 ```
 
+## Navigation
+- [Next: 04-setup-graphql-schema →](04-setup-graphql-schema.md)
 
 

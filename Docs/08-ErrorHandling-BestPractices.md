@@ -246,3 +246,5 @@ builder.Services
    - Sanitize error messages
    - Use appropriate HTTP status codes
 
+## Navigation
+- [Next: 9_Caching →](9_Caching.md)
