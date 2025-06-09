@@ -1,0 +1,11 @@
+.vscode
+
+bin
+
+obj
+
+GraphQLDemo.API/logs
+
+appsettings.json
+
+GraphQLDemo.Infrastructure/Migrations
