@@ -38,6 +38,9 @@ public class PostMutation
 
         post.Content = input.NewContent;
         await context.SaveChangesAsync();
+
+        post = await context.Posts.Include(p => p.User).FirstOrDefaultAsync(p => p.Id == post.Id);
+        
         return post;
     }
 
