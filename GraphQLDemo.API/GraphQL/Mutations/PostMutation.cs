@@ -4,6 +4,7 @@ using GraphQLDemo.Core.Inputs;
 using HotChocolate.Authorization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Caching.Memory;
+using Microsoft.EntityFrameworkCore;
 
 namespace GraphQLDemo.API.GraphQL.Mutation;
 
@@ -20,6 +21,8 @@ public class PostMutation
         };
         context.Posts.Add(post);
         await context.SaveChangesAsync();
+
+        post = await context.Posts.Include(p => p.User).FirstOrDefaultAsync(p => p.Id == post.Id);
 
         string cacheKey = $"posts_user_{input.UserId}";
         cache.Remove(cacheKey); // Clear cache after post creation
